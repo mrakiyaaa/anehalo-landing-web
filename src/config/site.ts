@@ -4,8 +4,7 @@ export const site = {
   name: "Anehalo",
   version: "0.1.0",
   downloadUrl: "https://github.com/mrakiyaaa/anehalo/releases/latest/download/Anehalo-Setup.exe",
-  // TODO: replace with the live site address (used for metadataBase, Open Graph, robots and sitemap).
-  siteUrl: "https://anehalo.example.com",
+  siteUrl: "https://anehalo.lakshitha.me",
   githubUrl: "https://github.com/mrakiyaaa/anehalo",
   authorName: "Akila Lakshitha",
   authorUrl: "https://lakshitha.me",
