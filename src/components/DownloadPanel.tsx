@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { edgeHelp } from "@/config/help";
 import { site } from "@/config/site";
 import { Icon } from "./Icons";
 
@@ -22,6 +23,17 @@ export function DownloadPanel() {
           The installer is not code-signed yet, so Windows may show a SmartScreen warning. The steps below explain what
           to click.
         </p>
+        <div className="faq dl-help">
+          <details className="card">
+            <summary>
+              {edgeHelp.q}
+              <Icon name="plus" />
+            </summary>
+            <div className="faq-a">
+              <p>{edgeHelp.a}</p>
+            </div>
+          </details>
+        </div>
         <ol className="steps">
           <li>
             <div>

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { edgeHelp } from "@/config/help";
 import { Icon } from "./Icons";
 
 const questions: { q: string; a: ReactNode }[] = [
@@ -16,6 +17,7 @@ const questions: { q: string; a: ReactNode }[] = [
     q: "Why does Windows warn me when I install it?",
     a: 'The installer is not code-signed yet, so SmartScreen shows "Windows protected your PC". Choose More info, then Run anyway. Do this only for an installer you downloaded from this page.',
   },
+  edgeHelp,
   {
     q: "Can I open my notes in other apps?",
     a: "Yes, they are Markdown files. Text color, size, underline and highlight are saved as small HTML tags, which other apps may ignore or show as plain text. Everything else is standard Markdown.",

@@ -338,6 +338,10 @@ section[id] { scroll-margin-top: 90px; }
 .faq details[open] summary .ico { transform: rotate(45deg); }
 .faq-a { padding: 0 22px 20px; max-width: 62ch; color: var(--ink-2); font-size: 16px; }
 .faq-a p { margin: 0; }
+.dl-help { max-width: 56ch; margin-top: -4px; }
+.dl-help summary { padding: 12px 18px; font-size: 14.5px; }
+.dl-help .faq-a { padding: 0 18px 14px; }
+.dl .dl-help .faq-a p { max-width: none; font-size: 14px; }
 .faq-a code { padding: 1px 7px; border-radius: 7px; background: var(--side-bg); font: 500 14.5px var(--font-mono); color: var(--ink); }
 
 /* Footer */
